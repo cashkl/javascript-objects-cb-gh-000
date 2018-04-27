@@ -2,7 +2,7 @@ var playlist = {"cem karaca":"Incir Agaci"}
 function updatePlaylist(obj,name,title) {
   return obj.assign(obj,[name]:title)
 }
-function updatePlaylist(object,name) {
-  delete object.name
+function updatePlaylist(obj,name) {
+  delete obj.name
  return obj
 }
