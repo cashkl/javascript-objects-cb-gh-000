@@ -1,4 +1,4 @@
-playlist = {cem karaca:"Incir Agaci"}
+var playlist = {cem karaca:"Incir Agaci"}
 function updatePlaylist(object,name,title) {
   object.assign(object,[name]:title)
 }
