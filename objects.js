@@ -1,4 +1,4 @@
-var playlist = {"cem karaca":"Incir Agaci"}
+var playlist = {}
 function updatePlaylist(playlist ,artistName,songTitle) {
   return playlist.assign(playlist,{artistName:[songTitle]})
 }
